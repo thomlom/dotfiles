@@ -1,4 +1,16 @@
+export ZSH="/Users/thomaspersonnel/.oh-my-zsh"
+
+# use default theme
+ZSH_THEME=robbyrussell
+
+# use git plugin
+plugins=(git)
+
+# skip verification of insecure directories
 ZSH_DISABLE_COMPFIX=true
+source $ZSH/oh-my-zsh.sh
+
+# default alias for nvm
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
 # use hub for git
@@ -12,8 +24,8 @@ alias nrd="npm run dev -s --"
 alias nrt="npm run test -s --"
 
 ## yarn aliases
-alias ya="yarn add"
-alias yau="yarn remove"
+alias ya="yarn"
+alias yaa="yarn add"
 alias yar="yarn run"
 alias yad="yarn run dev"
 alias yas="yarn run start"
@@ -31,4 +43,7 @@ alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && kill
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Update brew
-alias brew_update='brew update; brew upgrade; brew cleanup';
+alias brew-update='brew update; brew upgrade; brew cleanup';
+
+# Copy the ZSH config to dotfiles
+alias copy-zsh='cp ~/.zshrc ~/Desktop/dotfiles/.zshrc; cd ~/Desktop/dotfiles && git add .zshrc && git commit -m "Update ZSH" && git push'
