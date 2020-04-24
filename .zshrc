@@ -12,8 +12,8 @@ alias nrd="npm run dev -s --"
 alias nrt="npm run test -s --"
 
 ## yarn aliases
-alias ya="yarn"
-alias yaa="yarn add"
+alias ya="yarn add"
+alias yau="yarn remove"
 alias yar="yarn run"
 alias yad="yarn run dev"
 alias yas="yarn run start"
