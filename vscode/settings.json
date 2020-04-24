@@ -1,0 +1,55 @@
+{
+  // Editor
+  "editor.fontSize": 16,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 38,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  // Auto-fix with ESLint when saving
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true
+  },
+  // ESLint
+  "eslint.alwaysShowStatus": true,
+  // Disable Prettier for JS and JSX since we handle it with ESLint
+  "prettier.disableLanguages": [
+    // "javascript",
+    "javascriptreact"
+  ],
+  // Workbench customization
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.editor": "json",
+  // Misc
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "window.zoomLevel": 0,
+  // Auto-save when switching windows
+  "files.autoSave": "onWindowChange",
+  // Include Emmet in JSX
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "extensions.ignoreRecommendations": true,
+  // Don't ask me if I'm sure I want to move this file
+  "explorer.confirmDragAndDrop": false,
+  // Don't show the open editors
+  "explorer.openEditors.visible": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
