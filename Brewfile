@@ -26,6 +26,7 @@ cask "sketch"
 cask "spotify"
 cask "visual-studio-code"
 cask "font-fira-code"
+cask "font-inter"
 cask "font-jetbrains-mono"
 cask "font-roboto"
 mas "Bear", id: 1091189122
