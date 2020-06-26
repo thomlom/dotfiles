@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+
 brew "htop"
 brew "hub"
 brew "kubernetes-cli", link: false
@@ -13,21 +14,27 @@ brew "watch"
 brew "wget"
 brew "yarn"
 brew "github/gh/gh"
+
 cask "1password"
 cask "alfred"
-cask "bettertouchtool"
+cask "cleanshot"
 cask "discord"
 cask "figma"
 cask "firefox"
 cask "google-chrome"
 cask "insomnia"
-cask "notion"
 cask "sketch"
 cask "slack"
 cask "visual-studio-code"
+
+cask "notion"
+cask "torguard"
+cask "zoomus"
+
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
