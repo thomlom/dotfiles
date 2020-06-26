@@ -23,13 +23,12 @@ cask "firefox"
 cask "insomnia"
 cask "notion"
 cask "sketch"
-cask "spotify"
+cask "slack"
 cask "visual-studio-code"
 cask "font-fira-code"
 cask "font-inter"
 cask "font-jetbrains-mono"
 cask "font-roboto"
-mas "Bear", id: 1091189122
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
