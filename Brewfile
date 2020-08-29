@@ -14,6 +14,7 @@ brew "watch"
 brew "wget"
 brew "yarn"
 brew "github/gh/gh"
+brew "n"
 
 cask "1password"
 cask "alfred"
@@ -37,4 +38,4 @@ mas "Magnet", id: 441258766
 mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Xcode", id: 497799835
+mas "Todoist: To-Do List & Tasks", id: 585829637

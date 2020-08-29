@@ -1,7 +1,4 @@
-export ZSH="/Users/thomaspersonnel/.oh-my-zsh"
-
-# use default theme
-ZSH_THEME=robbyrussell
+export ZSH="/Users/thomas/.oh-my-zsh"
 
 # use git plugin
 plugins=(git)
@@ -9,9 +6,6 @@ plugins=(git)
 # skip verification of insecure directories
 ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
-
-# default alias for nvm
-[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
 # use hub for git
 alias git=hub
@@ -47,5 +41,15 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 # Update brew
 alias brew-update='brew update; brew upgrade; brew cleanup';
 
-# Copy the ZSH config to dotfiles
-alias copy-zsh='cp ~/.zshrc ~/Desktop/dotfiles/.zshrc; cd ~/Desktop/dotfiles && git add .zshrc && git commit -m "Update ZSH" && git push'
+# For brew, at least
+export PATH=/usr/local/bin:$PATH
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
+
+# Spaceship options
+SPACESHIP_AWS_SHOW=false
+SPACESHIP_KUBECTL_SHOW=false
+SPACESHIP_KUBECONTEXT_SHOW=false
+SPACESHIP_EXEC_TIME_SHOW=false
