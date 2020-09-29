@@ -5,7 +5,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 brew "htop"
-brew "hub"
 brew "kubernetes-cli", link: false
 brew "mas"
 brew "mkcert"
