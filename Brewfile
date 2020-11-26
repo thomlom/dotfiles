@@ -18,6 +18,7 @@ brew "autojump"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "thefuck"
+brew "tokei"
 
 cask "1password"
 cask "alfred"
