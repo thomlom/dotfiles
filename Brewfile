@@ -4,38 +4,38 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 
-brew "htop"
-brew "kubernetes-cli", link: false
-brew "mas"
-brew "mkcert"
 brew "node"
+brew "yarn"
+brew "mas"
 brew "watch"
 brew "wget"
-brew "yarn"
 brew "gh"
 brew "n"
-brew "autojump"
 brew "zsh-syntax-highlighting"
 brew "zsh-autosuggestions"
 brew "thefuck"
 brew "tokei"
+
+brew "kubernetes-cli", link: false
+brew "mkcert"
 
 cask "1password"
 cask "alfred"
 cask "cleanshot"
 cask "discord"
 cask "firefox"
+cask "freedom"
 cask "google-chrome"
 cask "insomnia"
 cask "mockoon"
-cask "sketch"
 cask "slack"
+cask "spotify"
 cask "visual-studio-code"
 
 cask "torguard"
 cask "zoomus"
 
-mas "iMovie", id: 408981434
+mas "Bear", id: 1091189122
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "NordVPN IKE", id: 1116599239
